@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'adelle-bold';
+    src: url('../fonts/adelle/Adelle_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'adelle-light';
+    src: url('../fonts/adelle/Adelle_light.woff') format('woff');
+}
+
+body {
+    background-color: #00d7ff !important;
+}
+h1{
+    font-family: 'adelle-bold', serif;
+}
+
+h4{
+    font-family: 'adelle-light', serif;
+}
+
+h1{
+    color: white;
+    background-color: #00000061;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.sub-section-01 h4{
+    background: #ffffff80;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+.sub-section-02 h4{
+    background: #ffffff80;
+    padding: 15px 0px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 10rem 0rem;
+}
+
+.section-padding {
+    padding: 4vw 0;
+}
+
+.sub-section-01{
+    position: relative;
+    display: inline-block;
+}
+
+.subtitle{
+    position: absolute;
+    top: 10px;
+    left: 10%;
+}
+
+.description{
+    position: absolute;
+    top: 120px;
+    right: 0%;
+    margin: 0px 15px;
+}
+
+.sub-section-02{
+    padding: 50px 15px;
+}
+
+.sub-section-02 div{
+    padding: 10px 5px;
+}
+
+.sub-section-02 .cta-buttons{
+    font-size: 18px;
+    font-family: 'adelle-light', serif;
+    margin: 0px 5px;
+    display: block;
+    min-height: 98px;
+}
+
+.sub-section-02 .sala-principal {
+    font-size: 18px;
+    font-family: 'adelle-light', serif;
+    margin: 0px 5px;
+    display: block;
+}
+
+.al-medio {
+    padding: 20px 10px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .subtitle{
+        left: 5%;
+    }
+
+    .sub-section-02 .sala-principal {
+        font-size: 25px;
+        font-family: 'adelle-light', serif;
+        margin: 0px 5px;
+        display: block;
+    }
+
+    .sub-section-02 .cta-buttons{
+        font-size: 25px;
+        font-family: 'adelle-light', serif;
+        margin: 0px 5px;
+        display: block;
+    }
+
+    .al-medio {
+        padding: 30px 10px !important;
+    }
+}
