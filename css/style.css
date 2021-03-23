@@ -97,20 +97,48 @@ section {
     }
 
     .sub-section-02 .sala-principal {
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'adelle-light', serif;
         margin: 0px 5px;
         display: block;
+        min-height: 45px;
     }
 
     .sub-section-02 .cta-buttons{
-        font-size: 25px;
+        font-size: 18px;
         font-family: 'adelle-light', serif;
         margin: 0px 5px;
         display: block;
+        min-height: 45px;
     }
 
     .al-medio {
-        padding: 30px 10px !important;
+        padding: 8px 0px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .subtitle{
+        left: 5%;
+    }
+
+    .sub-section-02 .sala-principal {
+        font-size: 18px;
+        font-family: 'adelle-light', serif;
+        margin: 0px 5px;
+        display: block;
+        min-height: 45px;
+    }
+
+    .sub-section-02 .cta-buttons{
+        font-size: 18px;
+        font-family: 'adelle-light', serif;
+        margin: 0px 5px;
+        display: block;
+        min-height: 45px;
+    }
+
+    .al-medio {
+        padding: 8px 0px !important;
     }
 }
