@@ -8,55 +8,64 @@
     src: url('../fonts/adelle/Adelle_light.woff') format('woff');
 }
 
-*{
+
+html, body {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 10px;
-    font-family: 'adelle-bold', sans-serif;
-}
-
-a{
-    text-decoration: none;
-}
-
-body{
-    background-image: url(../img/background-03.png);
+    height:100%;
+    min-height:100%;
+    background: url(../img/LANDING-INTEGRAUTEC.png) no-repeat center center fixed;
     background-size: cover;
     background-position: top center;
     position: relative;
     z-index: 1;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar {
     text-align: right;
-    padding: 20px 0px;
+    padding: 100px 0px 20px 0px;
 }
 
 #hero{
-    margin: 8% 0px;
+    margin: 0% 0% 8% 0%;
 }
 
 .container{
-    margin: 0px 15%;
+    margin: 0px 12%;
     align-items: center;
     justify-content: center;
 }
 
+.img-render {
+    image-rendering: -webkit-optimize-contrast;
+}
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 0.2fr 1.5fr;
+    grid-template-columns: 1.5fr 0.2fr 1.5fr;
     column-gap: 2em;
 }
 
-.grid-3 {
+.grid-2l {
+    display: grid;
+    grid-template-columns: 2.15fr 4fr;
+    column-gap: 0.5em;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 2fr;
+    column-gap: 2em;
+}
+
+.grid-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 1em;
+    column-gap: 1.5em;
 }
 
 #hero h1{
@@ -69,9 +78,9 @@ body{
     text-align: center;
 }
 
-.sub-section-02 div{
+/* .sub-section-02 div{
     padding: 10px 5px;
-}
+} */
 
 #hero .btn-sala-principal {
     display: block;
@@ -130,10 +139,22 @@ body{
         column-gap: 0em;
     }
 
-    .grid-3 {
+    .grid-2l {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        column-gap: 1em;
+        grid-template-columns: 2.15fr 4fr;
+        column-gap: 0.5em;
+    }
+    
+    .grid-1 {
+        display: grid;
+        grid-template-columns: 2fr;
+        column-gap: 2em;
+    }
+    
+    .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1.5em;
     }
 
     .navbar {
